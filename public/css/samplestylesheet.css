@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1
+}
+
+ul {
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    display: inline-flex
+}
+
+.header-logo{
+    height: 75px;
+    width: 130px;
+}
+footer{
+    padding-top: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text, ul li, a{
+    font-family: 'Raleway', sans-serif;
+}
+
+.caixa{
+display: inline-flex;
+align-items: center;
+}
+
+p{
+    padding-left: 10px;
+}
+
+
